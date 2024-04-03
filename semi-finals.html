@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Semi-final</title>
+    <link rel="icon" href="https://img.icons8.com/ios/452/html-5.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Montserrat:wght@300&family=Noto+Sans&family=Raleway:wght@500&display=swap"
+        rel="stylesheet">
+</head>
+
+<style>
+    html {
+        scroll-behavior: smooth;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-image: url('images/bg.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: transparent;
+        z-index: 1000;
+    }
+
+
+
+    li {
+        float: left;
+        margin: 20px 50px 20px 50px
+    }
+
+    li a {
+        display: block;
+        color: rgb(43, 43, 43);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        font-weight: bold;
+    }
+
+    li a:hover {
+        color: aliceblue;
+        border-radius: 5%;
+        background: rgb(92, 167, 219);
+        background: linear-gradient(315deg, rgba(92, 167, 219, 1) 0%, rgba(1, 129, 237, 1) 47%, rgba(91, 177, 222, 1) 100%);
+    }
+
+    li a .active {
+        color: aliceblue;
+        border-radius: 5%;
+        background-color: #1c6a74;
+    }
+
+    section {
+        padding: 20px;
+        text-align: center;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .title h2 {
+        margin-top: 125px;
+        margin-bottom: 20px;
+        font-size: 50px;
+        font-weight: bolder;
+    }
+
+
+
+    .button-36 {
+        margin: 0 10px 0 10px;
+        background: rgb(92, 167, 219);
+        background: linear-gradient(315deg, rgba(92, 167, 219, 1) 0%, rgba(1, 129, 237, 1) 47%, rgba(91, 177, 222, 1) 100%);
+        border-radius: 8px;
+        border-style: none;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        cursor: pointer;
+        flex-shrink: 0;
+        font-family: "Inter UI", "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        height: 4rem;
+        padding: 0 1.6rem;
+        text-align: center;
+        text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+        transition: all .5s;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+    }
+
+    .button-36:hover {
+        box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+        transition-duration: .1s;
+    }
+
+    @media (min-width: 768px) {
+        .button-36 {
+            padding: 0 2.6rem;
+        }
+    }
+
+    footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #f8f9fa;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    .homepage{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto 0 auto;
+    }
+</style>
+
+<body>
+    <ul>
+        <li><a class="active" href="index.html#home">Home</a></li>
+        <li><a href="index.html#activities">Activities</a></li>
+        <li><a href="cv.html">Curriculum Vitae</a></li>
+        <li><a href="index.html#about">About</a></li>
+    </ul>
+
+
+
+        <div class="homepage">
+            <div class="title">
+                <h2>SEMI-FINAL (CSS)</h2>
+                <p>Navigate through activities by clicking on the buttons provided in the walkthrough.</p>
+            </div>
+
+            <div class="images">
+                <div class="buttons">
+                    <br><br>
+                    <div class="buttonS1">
+                        <button class="button-36"
+                            onclick="window.open('ACTIVITY V2/CSS ACTIVITY 1-22/Activity 1-4/Act1.html', '_blank');">Activity
+                            1</button>
+                        <button class="button-36"
+                            onclick="window.open('ACTIVITY V2/CSS ACTIVITY 1-22/Activity 1-4/Act2.html', '_blank');">Activity
+                            2</button>
+                        <button class="button-36"
+                            onclick="window.open('ACTIVITY V2/CSS ACTIVITY 1-22/Activity 1-4/Act3.html', '_blank');">Activity
+                            3</button>
+                        <button class="button-36"
+                            onclick="window.open('ACTIVITY V2/CSS ACTIVITY 1-22/Activity 1-4/Act4.html', '_blank');">Activity
+                            4</button>
+                        <button class="button-36"
+                            onclick="window.open('ACTIVITY V2/CSS ACTIVITY 1-22/Activity 5-6/Act5.html', '_blank');">Activity
+                            5</button>
+                        <button class="button-36"
+                            onclick="window.open('ACTIVITY V2/CSS ACTIVITY 1-22/Activity 5-6/Act6.html', '_blank');">Activity
+                            6</button>
+                    </div>
+                    <br>
+                    <div class="buttonS2">
+                        <button class="button-36"
+                            onclick="window.open('ACTIVITY V2/CSS ACTIVITY 1-22/Activity 7-10/Act7.html', '_blank');">Activity
+                            7</button>
+                        <button class="button-36"
+                            onclick="window.open('ACTIVITY V2/CSS ACTIVITY 1-22/Activity 7-10/Act8.html', '_blank');">Activity
+                            8</button>
+                        <button class="button-36"
+                            onclick="window.open('ACTIVITY V2/CSS ACTIVITY 1-22/Activity 7-10/Act9.html', '_blank');">Activity
+                            9</button>
+                        <button class="button-36"
+                            onclick="window.open('ACTIVITY V2/CSS ACTIVITY 1-22/Activity 7-10/Act10.html', '_blank');">Activity
+                            10</button>
+                        <button class="button-36"
+                            onclick="window.open('ACTIVITY V2/CSS ACTIVITY 1-22/Activity 11-13/Act11.html', '_blank');">Activity
+                            11</button>
+                        <button class="button-36"
+                            onclick="window.open('ACTIVITY V2/CSS ACTIVITY 1-22/Activity 11-13/Act12.html', '_blank');">Activity
+                            12</button>
+                    </div>
+                    <br>
+                    <div class="buttonS3">
+                        <button class="button-36"
+                            onclick="window.open('ACTIVITY V2/CSS ACTIVITY 1-22/Activity 11-13/Act13.html', '_blank');">Activity
+                            13</button>
+                        <button class="button-36"
+                            onclick="window.open('ACTIVITY V2/CSS ACTIVITY 1-22/Activity 14-15/Act14.html', '_blank');">Activity
+                            14</button>
+                        <button class="button-36"
+                            onclick="window.open('ACTIVITY V2/CSS ACTIVITY 1-22/Activity 14-15/Act15.html', '_blank');">Activity
+                            15</button>
+                        <button class="button-36"
+                            onclick="window.open('ACTIVITY V2/CSS ACTIVITY 1-22/Activity 16-22/Act16.html', '_blank');">Activity
+                            16</button>
+                        <button class="button-36"
+                            onclick="window.open('ACTIVITY V2/CSS ACTIVITY 1-22/Activity 16-22/Act17.html', '_blank');">Activity
+                            17</button>
+                        <button class="button-36"
+                            onclick="window.open('ACTIVITY V2/CSS ACTIVITY 1-22/Activity 16-22/Act18.html', '_blank');">Activity
+                            18</button>
+
+                    </div>
+                    <br>
+                    <div class="buttonS4">
+                        <button class="button-36"
+                            onclick="window.open('ACTIVITY V2/CSS ACTIVITY 1-22/Activity 16-22/Act19.html', '_blank');">Activity
+                            19</button>
+                        <button class="button-36"
+                            onclick="window.open('ACTIVITY V2/CSS ACTIVITY 1-22/Activity 16-22/Act20.html', '_blank');">Activity
+                            20</button>
+                        <button class="button-36"
+                            onclick="window.open('ACTIVITY V2/CSS ACTIVITY 1-22/Activity 16-22/Act21.html', '_blank');">Activity
+                            21</button>
+                        <button class="button-36"
+                            onclick="window.open('ACTIVITY V2/CSS ACTIVITY 1-22/Activity 16-22/Act22.html', '_blank');">Activity
+                            22</button>
+                        <button class="button-36"
+                            onclick="window.open('ACTIVITY V2/ACT 23 - 50/ACTCSS23.html', '_blank');">Activity
+                            23 - 50</button>
+                        <button class="button-36"
+                            onclick="window.open('ACTIVITY V2/ACT 51 - 68/ACTCSS51.html', '_blank');">Activity
+                            51 - 68</button>
+
+                    </div>
+                    <br>
+                    <button class="button-36"
+                        onclick="window.open('https://drive.google.com/drive/folders/1E8ITZOuCvEvGuE_r4squdpKCoBV1nTmH?usp=drive_link', '_blank');">Source
+                        Code</button>
+                </div>
+            </div>
+
+        </div>
+
+
+    <footer>
+        <p>&copy; 2024 Ara's Website</p>
+    </footer>
+
+</body>
+
+</html>

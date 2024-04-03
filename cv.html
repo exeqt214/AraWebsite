@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Curriculum Vitae</title>
+    <link rel="icon" href="https://img.icons8.com/ios/452/html-5.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Montserrat:wght@300&family=Noto+Sans&family=Raleway:wght@500&display=swap"
+        rel="stylesheet">
+</head>
+
+<style>
+    html {
+        scroll-behavior: smooth;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-image: url('images/bg.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: transparent;
+        z-index: 1000;
+    }
+
+
+
+    li {
+        float: left;
+        margin: 20px 50px 20px 50px
+    }
+
+    li a {
+        display: block;
+        color: rgb(43, 43, 43);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        font-weight: bold;
+    }
+
+    li a:hover {
+        color: aliceblue;
+        border-radius: 10%;
+        background: rgb(92, 167, 219);
+        background: linear-gradient(315deg, rgba(92, 167, 219, 1) 0%, rgba(1, 129, 237, 1) 47%, rgba(91, 177, 222, 1) 100%);
+    }
+
+    .container {
+        max-width: 700px;
+        background: #fff;
+        margin: 0px auto 0px;
+        box-shadow: 1px 1px 2px #DAD7D7;
+        border-radius: 3px;
+        padding: 40px;
+        margin-top: 130px;
+        margin-bottom: 50px;
+    }
+
+    .header {
+        margin-bottom: 30px;
+
+        .full-name {
+            font-size: 40px;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+        }
+
+        .first-name {
+            font-weight: 700;
+        }
+
+        .last-name {
+            font-weight: 300;
+        }
+
+        .contact-info {
+            margin-bottom: 20px;
+        }
+
+        .email,
+        .phone {
+            color: #999;
+            font-weight: 300;
+        }
+
+        .separator {
+            height: 10px;
+            display: inline-block;
+            border-left: 2px solid #999;
+            margin: 0px 10px;
+        }
+
+        .position {
+            font-weight: bold;
+            display: inline-block;
+            margin-right: 10px;
+            text-decoration: underline;
+        }
+    }
+
+
+    .details {
+        line-height: 20px;
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section:last-of-type {
+            margin-bottom: 0px;
+        }
+
+        .section__title {
+            letter-spacing: 2px;
+            color: #54AFE4;
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        .section__list-item {
+            margin-bottom: 40px;
+        }
+
+        .section__list-item:last-of-type {
+            margin-bottom: 0;
+        }
+
+        .left,
+        .right {
+            vertical-align: top;
+            display: inline-block;
+        }
+
+        .left {
+            width: 60%;
+        }
+
+        .right {
+            width: 39%;
+        }
+
+        .name {
+            font-weight: bold;
+        }
+
+        a {
+            text-decoration: none;
+            color: #000;
+            font-style: italic;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #000;
+        }
+
+        .skills__item {
+            margin-bottom: 10px;
+        }
+
+        .skills__item .right {
+            input {
+                display: none;
+            }
+
+            label {
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+                background: #C3DEF3;
+                border-radius: 20px;
+                margin-right: 3px;
+            }
+
+            input:checked+label {
+                background: #79A9CE;
+            }
+        }
+    }
+
+    footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #f8f9fa;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+</style>
+
+<body>
+
+    <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="index.html#activities">Activities</a></li>
+        <li><a href="cv.html">Curriculum Vitae</a></li>
+        <li><a href="index.html#about">About</a></li>
+    </ul>
+    <div class="container">
+        <div class="header">
+            <div class="full-name">
+                <span class="first-name">Ara</span>
+                <span class="last-name">Baguinon</span>
+            </div>
+            <div class="contact-info">
+                <span class="email">Email: </span>
+                <span class="email-val">araleahbaguinon@gmail.com</span>
+                <span class="separator"></span>
+                <span class="phone">Phone: </span>
+                <span class="phone-val">09511222983</span>
+            </div>
+
+            <div class="about">
+                <span class="desc">
+                    Seeking a position as an HTML and CSS developer where I can utilize my skills in front-end web
+                    development to create engaging and user-friendly websites. I aim to contribute to a dynamic team,
+                    enhance my abilities, and deliver high-quality code that meets both aesthetic and functional
+                    requirements.
+                </span>
+            </div>
+        </div>
+        <div class="details">
+            <div class="section">
+                <div class="section__title">Experience</div>
+                <div class="section__list">
+                    <div class="section__list-item">
+                        <div class="left">
+                            <div class="name">JustClick</div>
+                            <div class="addr">Ususan, Taguig City</div>
+                            <div class="duration">Jan 2018 - Nov 2023</div>
+                        </div>
+                        <div class="right">
+                            <div class="name">Photographer</div>
+                            <div class="desc">Capturing portraits and editing.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="section__title">Education</div>
+                <div class="section__list">
+                    <div class="section__list-item">
+                        <div class="left">
+                            <div class="name">Taguig Integrated School</div>
+                            <div class="addr">Sta. Ana, Taguig City</div>
+                            <div class="duration">June 2021 - March 2023</div>
+                        </div>
+                        <div class="right">
+                            <div class="name">Senior and Junior High School</div>
+                            <div class="desc">Took the strand of Information and Communication Technology</div>
+                        </div>
+                    </div>
+                    <div class="section__list-item">
+                        <div class="left">
+                            <div class="name">Arellano University - Andres Bonifacio <br>Campus</div>
+                            <div class="addr">Pasig City</div>
+                            <div class="duration">August 2023 - Present</div>
+                        </div>
+                        <div class="right">
+                            <div class="name">College</div>
+                            <div class="desc">Currently taking the Bachelor degree in Information Technology</div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="section">
+                <div class="section__title">Skills</div>
+                <div class="skills">
+                    <div class="skills__item">
+                        <div class="left">
+                            <div class="name">
+                                HTML
+                            </div>
+                        </div>
+                        <div class="right">
+                            <input id="ck1" type="checkbox" checked />
+
+                            <label for="ck1"></label>
+                            <input id="ck2" type="checkbox" checked />
+
+                            <label for="ck2"></label>
+                            <input id="ck3" type="checkbox" checked />
+
+                            <label for="ck3"></label>
+                            <input id="ck4" type="checkbox" />
+                            <label for="ck4"></label>
+                            <input id="ck5" type="checkbox" />
+                            <label for="ck5"></label>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="skills__item">
+                    <div class="left">
+                        <div class="name">
+                            CSS</div>
+                    </div>
+                    <div class="right">
+                        <input id="ck1" type="checkbox" checked />
+
+                        <label for="ck1"></label>
+                        <input id="ck2" type="checkbox" checked />
+
+                        <label for="ck2"></label>
+                        <input id="ck3" type="checkbox" />
+
+                        <label for="ck3"></label>
+                        <input id="ck4" type="checkbox" />
+                        <label for="ck4"></label>
+                        <input id="ck5" type="checkbox" />
+                        <label for="ck5"></label>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Ara's Website</p>
+    </footer>
+
+</body>
+
+</html>
