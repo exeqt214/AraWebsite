@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ACT65 - Hoverable Buttons</title>
+    <link rel="icon" href="https://img.icons8.com/ios/452/html-5.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Montserrat:wght@300&family=Noto+Sans&family=Raleway:wght@500&display=swap"
+        rel="stylesheet">
+</head>
+<style>
+    * {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url('Backgrounds/bg.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    h3 {
+        font-size: 24px;
+        margin: 50px auto 0 auto;
+        text-align: center;
+        color: #3D3C42;
+    }
+
+    h1 {
+        font-size: 24px;
+        margin: 40px auto 40px auto;
+        text-align: center;
+        color: #3D3C42;
+        letter-spacing: 2px;
+    }
+
+
+
+    input[type=button],
+    input[type=submit],
+    input[type=reset] {
+        background-color: #7F5283;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 4px auto 40px auto;
+        cursor: pointer;
+    }
+
+
+    form {
+        margin: 15px 50px 15px 50px;
+    }
+
+    .form {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+        margin: 50px auto 100px auto;
+        width: 50%;
+    }
+
+    .button6 {
+        text-align: center;
+    }
+
+    .button6 a {
+        color: white;
+        display: inline-block;
+        margin: 0px;
+        margin-bottom: 20px;
+        text-decoration: none;
+        background-color: #3D3C42;
+        padding: 10px 15px;
+        margin-top: 50px;
+    }
+
+    .btn {
+        text-align: center;
+    }
+
+    .buttonS {
+        background-color: #7F5283;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+
+
+    .button1 {
+        background-color: white;
+        color: black;
+        border: 2px solid #FFD2D7;
+    }
+
+    .button2 {
+        background-color: white;
+        color: black;
+        border: 2px solid #9288F8;
+    }
+
+    .button3 {
+        background-color: white;
+        color: black;
+        border: 2px solid #8062D6;
+    }
+
+    .button4 {
+        background-color: white;
+        color: black;
+        border: 2px solid #322653;
+    }
+
+    .button5 {
+        background-color: white;
+        color: black;
+        border: 2px solid #130f1e;
+    }
+
+    .buttonS.button1:hover {
+        transition: .3s ease-in-out;
+        border-color: #ffd2d72c;
+    }
+
+    .buttonS.button2:hover {
+        transition: .3s ease-in-out;
+        border-color: #9188f869;
+    }
+
+    .buttonS.button3:hover {
+        transition: .3s ease-in-out;
+        border-color: #8162d67a;
+    }
+
+    .buttonS.button4:hover {
+        transition: .3s ease-in-out;
+        border-color: #32265392;
+    }
+
+    .buttonS.button5:hover {
+        transition: .3s ease-in-out;
+        border-color: #130f1e7a;
+    }
+</style>
+
+<body>
+
+    <h3>Hoverable Buttons</h3>
+
+
+    <div class="form">
+        <h1>How many stars you want to give for <br>our page?</h1>
+        <form action="/action_page.php">
+
+            <div class="btn">
+                <button class="buttonS button1">&star;</button>
+                <button class="buttonS button2">&star;&star;</button>
+                <button class="buttonS button3">&star;&star;&star;</button>
+                <button class="buttonS button4">&star;&star;&star;</button>
+                <button class="buttonS button5">&star;&star;&star;&star;</button>
+
+
+
+            </div>
+
+
+        </form>
+        <div class="button6">
+            <a href="ACTCSS64.html">Go to the previous Activity</a>
+            <a href="ACTCSS66.html">Go to the next Activity</a>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

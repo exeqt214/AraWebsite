@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ACT53 - Input fields with borders</title>
+    <link rel="icon" href="https://img.icons8.com/ios/452/html-5.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Montserrat:wght@300&family=Noto+Sans&family=Raleway:wght@500&display=swap"
+        rel="stylesheet">
+</head>
+<style>
+    * {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url('Backgrounds/bg.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    h3 {
+        font-size: 24px;
+        margin: 50px auto 0 auto;
+        text-align: center;
+        color: #3D3C42;
+    }
+
+    h1 {
+        font-size: 24px;
+        margin: 40px auto 40px auto;
+        text-align: center;
+        color: #3D3C42;
+        letter-spacing: 2px;
+    }
+
+    input[type=text] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 2px solid #A6D1E6;
+        border-radius: 4px;
+    }
+
+
+    input[type=submit] {
+        width: 100%;
+        background-color: #7F5283;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+        transition: .3s ease-in-out;
+        background-color: #5c3b5f;
+    }
+
+    form {
+        margin: 15px 50px 15px 50px;
+    }
+
+    .form {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+        margin: 50px auto 100px auto;
+        width: 40%;
+    }
+
+    .button {
+        text-align: center;
+    }
+
+    .button a {
+        color: white;
+        display: inline-block;
+        margin: 0px;
+        text-decoration: none;
+        background-color: #3D3C42;
+        padding: 10px 15px;
+    }
+</style>
+
+<body>
+
+    <h3>Input fields with borders</h3>
+
+
+    <div class="form">
+        <h1>REGISTER NOW!</h1>
+        <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname">
+
+
+            <input type="submit" value="Submit">
+        </form>
+        <div class="button">
+            <a href="ACTCSS52.html">Go to the previous Activity</a>
+            <a href="ACTCSS54.html">Go to the next Activity</a>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

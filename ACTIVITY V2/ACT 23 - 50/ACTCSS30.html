@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ACT30 - CSS Outline</title>
+    <link rel="icon" href="https://img.icons8.com/ios/452/html-5.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Montserrat:wght@300&family=Noto+Sans&family=Raleway:wght@500&display=swap"
+        rel="stylesheet">
+
+
+</head>
+<style>
+    * {
+        margin: 0px 0px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    body {
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-image: url('Backgrounds/bg.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+    h2 {
+        padding: 30px 0 0 0;
+        text-align: center;
+        color: #FA7070;
+    }
+
+    p {
+        outline-color: #A1C398;
+    }
+
+    p.dotted {
+        outline-style: dotted;
+    }
+
+    p.dashed {
+        outline-style: dashed;
+    }
+
+    p.solid {
+        outline-style: solid;
+    }
+
+    p.double {
+        outline-style: double;
+    }
+
+    p.groove {
+        outline-style: groove;
+    }
+
+    p.ridge {
+        outline-style: ridge;
+    }
+
+    p.inset {
+        outline-style: inset;
+    }
+
+    p.outset {
+        outline-style: outset;
+    }
+
+    .outline {
+        margin: 100px 150px 100px 150px;
+        columns: 2;
+    }
+
+    .button {
+        text-align: center;
+    }
+
+    .button a {
+        color: white;
+        display: inline-block;
+        margin: 20px;
+        text-decoration: none;
+        background-color: #FA7070;
+        padding: 10px 15px;
+    }
+
+
+    a {
+        color: white;
+        display: inline-block;
+        margin: 20px;
+        text-decoration: none;
+        background-color: #FA7070;
+        padding: 10px 15px;
+    }
+
+    p {
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+</style>
+
+<body>
+    <h2>CSS Outline</h2>
+
+    <div class="outline">
+        <p class="dotted">A dotted outline</p>
+        <p class="dashed">A dashed outline</p>
+        <p class="solid">A solid outline</p>
+        <p class="double">A double outline</p>
+        <p class="groove">A groove outline. The effect depends on the outline-color value.</p>
+        <p class="ridge">A ridge outline. The effect depends on the outline-color value.</p>
+        <p class="inset">An inset outline. The effect depends on the outline-color value.</p>
+        <p class="outset">An outset outline. The effect depends on the outline-color value.</p>
+    </div>
+
+    <div class="button">
+        <a href="ACTCSS29.html">Go to the previous Activity</a>
+        <a href="ACTCSS31.html">Go to the next Activity</a>
+    </div>
+</body>
+
+</html>
